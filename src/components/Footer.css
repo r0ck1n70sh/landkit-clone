@@ -1,0 +1,51 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    background-color: #f1f4f8!important;
+    padding-top: 6rem; padding-bottom: 6rem;
+    padding-left: 3rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 1.25em; padding-right: 1.25em;
+}
+
+.footer-list div {
+    color: #869ab8;
+    margin-bottom: 0.75rem!important;
+}
+.footer-list div:hover{
+    text-decoration-line: underline;
+}
+
+.footer-list-logo div:hover {
+    text-decoration-line: none;
+}
+
+
+.footer-list-header {
+    font-size: 0.75rem;
+    color: #506690!important;
+    text-transform: uppercase;
+}
+.footer-list .footer-list-header:hover {
+    text-decoration-line: none;
+}
+
+
+.footer-social-media-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-social-media-container div {
+    color: #869ab8;
+}
