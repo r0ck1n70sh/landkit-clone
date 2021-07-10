@@ -1,0 +1,20 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-teal: #20C997;
+}
+
+
+* {
+    font-family: 'HK Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625rem;
+
+    color: #161c2d;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
